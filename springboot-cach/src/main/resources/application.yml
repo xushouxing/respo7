@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    initialization-mode: always
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.1.103:3306/cach?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.1.103
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.atguiju.springboot.mapper: debug
+
+
